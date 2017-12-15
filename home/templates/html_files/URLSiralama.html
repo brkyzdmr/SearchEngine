@@ -74,14 +74,8 @@
         <label for="anahtar_kelime">Anahtar Kelimeler</label>
         <input type="text" name="anahtarkelime">
 
-        <input type="button" onclick="myFunction()" value="ARA" />
-        <input type="reset" value="ANASAYFA" />
-
-        <h1 onclick="changeText(this)">Click on this text!</h1>
-
-
-        {% load static %}
-        <script type="text/javascript" src="{% static "/scripts/test.js" %}"></script>
+        <input type="button" onclick="location.href='/Ara/';" value="ARA" />
+        <input type="reset" onclick="location.href='/AnaSayfa/';" value="ANASAYFA" />
 
 
       </form>
