@@ -60,18 +60,17 @@
   <body>
     <h3>Anahtar Kelime Saydırma</h3>
     <div>
-      <form action="#">
+      <form method = "POST">
+        {% csrf_token %}
         <label for="anahtar_kelime">Anahtar Kelime</label>
-        <input type="text" id="anahtar_kelime" name="anahtarkelime">
+        <input type="text" id= "anahtarkelime" name="anahtarkelime">
 
         <label for="aranacak_url">Aranacak URL</label>
-        <input type="text" id="aranacak_url" name="url">
+        <input type="text" id= "url" name="url">
 
-        <input type="button" onclick=search() value="ARA" />
+        <input type="button" onclick="location.href='/Ara/';" value="ARA" />
         <input type="reset" onclick="location.href='/AnaSayfa/';" value="ANASAYFA" />
 
-        {% load static %}
-        <script type="text/javascript" src="{% static "/scripts/AnahtarKelimeSaydirma.js" %}"></script>
       </form>
     </div>
   </body>
