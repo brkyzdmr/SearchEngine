@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=0>
+    <title>URL Sıralama</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <style>
+      div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+      }
+      input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+      }
+      textarea {
+          width: 100%;
+          height: 150px;
+          padding: 12px 20px;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          resize: none;
+      }
+      input[type=button] {
+          width: 100%;
+          background-color: #5BCC8E;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      input[type=reset] {
+          width: 100%;
+          background-color: #FF7759;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      input[type=button]:hover {
+          background-color: #50B27C;
+      }
+      input[type=reset]:hover {
+          background-color: #E56B50;
+      }
+      h3 {
+        color: #172A3A;
+        font-family: verdana;
+        font-size: 20;
+        padding: 14px 20px;
+      }
+      label {
+        color: #172A3A;
+      }
+
+   </style>
+  </head>
+  <body>
+    <h3>URL Sıralama</h3>
+    <div>
+      <form>
+        <label for="anahtar_kelime">Anahtar Kelimeler</label>
+        <input type="text" name="anahtarkelime">
+
+        <input type="button" onclick="myFunction()" value="ARA" />
+        <input type="reset" value="ANASAYFA" />
+
+        <h1 onclick="changeText(this)">Click on this text!</h1>
+
+
+        {% load static %}
+        <script type="text/javascript" src="{% static "/scripts/test.js" %}"></script>
+
+
+      </form>
+
+    </div>
+  </body>
+</html>
