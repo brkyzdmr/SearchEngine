@@ -26,7 +26,8 @@ SECRET_KEY = 't$12nf@2j#0t0zfwacdpcx#@ayi@9p8v^vy8q)jz$lq8f&a@m('
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'searchengine.pythonanywhere.com'
+    'searchengine.pythonanywhere.com',
+    '127.0.0.1'
 ]
 
 
