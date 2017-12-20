@@ -63,6 +63,8 @@ def urlSiralama(request):
             for url in urlList:
                 dataList.append(getUrlData(word, url))
 
+        points = [1, 2, 3]
+        
         print(dataList)
         context = {
             "word": words,
