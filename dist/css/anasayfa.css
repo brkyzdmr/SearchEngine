@@ -6,6 +6,9 @@ article {
   padding: 2em;
   overflow: hidden;
   font-size: 200%;
+  border-radius: 5px;
+  background-color: #b9f0a8;
+  padding: 20px;
 }
 a {
   font-size: 4vw;

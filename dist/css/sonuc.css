@@ -5,7 +5,6 @@ div {
 }
 
 .bgTop {
-    border-radius: 5px;
     background-color: #cdf1f9;
     padding: 20px;
 }
@@ -29,7 +28,7 @@ input[type=reset]:hover {
   color: #FF7759;
   font-family: verdana;
   font-weight: bold;
-  font-size: 40;
+  font-size: 175%;
   padding: 14px 20px;
 }
 

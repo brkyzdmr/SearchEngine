@@ -5,7 +5,6 @@ div {
 }
 
 .bgTop {
-    border-radius: 5px;
     background-color: #cdf1f9;
     padding: 20px;
 }
@@ -45,19 +44,10 @@ input[type=submit]:hover {
 input[type=reset]:hover {
     background-color: #E56B50;
 }
-p {
-  color: #172A3A;
-  font-family: verdana;
-  font-size: 14;
-  padding: 14px 20px;
-}
-#p01 {
+.titleFont {
   color: #FF7759;
+  font-size: 175%;
   font-family: verdana;
   font-weight: bold;
-  font-size: 40;
   padding: 14px 20px;
-}
-label {
-  color: #172A3A;
 }

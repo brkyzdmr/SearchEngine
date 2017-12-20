@@ -3,6 +3,10 @@ div {
     background-color: #f2f2f2;
     padding: 20px;
 }
+.bgTop {
+    background-color: #cdf1f9;
+    padding: 20px;
+}
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -22,7 +26,7 @@ textarea {
     font-size: 16px;
     resize: none;
 }
-input[type=button] {
+input[type=submit] {
     width: 100%;
     background-color: #5BCC8E;
     color: white;
@@ -42,18 +46,16 @@ input[type=reset] {
     border-radius: 4px;
     cursor: pointer;
 }
-input[type=button]:hover {
+input[type=submit]:hover {
     background-color: #50B27C;
 }
 input[type=reset]:hover {
     background-color: #E56B50;
 }
-h3 {
-  color: #172A3A;
+.titleFont {
+  color: #FF7759;
+  font-size: 175%;
   font-family: verdana;
-  font-size: 20;
+  font-weight: bold;
   padding: 14px 20px;
-}
-label {
-  color: #172A3A;
 }
