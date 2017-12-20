@@ -1,0 +1,21 @@
+header {
+  padding: 1em;
+  clear: left;
+}
+article {
+  padding: 2em;
+  overflow: hidden;
+  font-size: 200%;
+}
+a {
+  font-size: 4vw;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,40 @@
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.bgTop {
+    background-color: #cdf1f9;
+    padding: 20px;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #FF7759;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #E56B50;
+}
+
+#p01 {
+  color: #FF7759;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 175%;
+  padding: 14px 20px;
+}
+
+#p02 {
+  color: #172A3A;
+  font-family: verdana;
+  font-size: 16;
+  padding: 14px 20px;
+}

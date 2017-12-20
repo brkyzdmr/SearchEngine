@@ -20,8 +20,4 @@ from home import views
 urlpatterns = [
     url(r'^', include('home.urls')),
     url(r'^admin/', admin.site.urls),
-    url(r'^AnahtarKelimeSaydirma/', views.anahtarKelimeSaydirma, name='anahtarKelimeSaydirma'),
-    url(r'^URLSiralama/', views.urlSiralama, name='urlSiralama'),
-    url(r'^AnaSayfa/', views.anasayfa, name='anasayfa'),
-    url(r'^Ara/', views.search),
 ]

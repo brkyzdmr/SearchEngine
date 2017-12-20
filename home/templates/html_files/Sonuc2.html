@@ -1,0 +1,22 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=0>
+  <title>Anasayfa</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  {% load static %}
+  <link rel ="stylesheet" href="{% static 'css/sonuc.css' %}">
+</head>
+<body>
+  <div class="bgTop">
+    <p id="p01">Anahtar Kelime Saydırma Sonuç</p>
+  </div>
+  <div>
+    <p id="p02">
+        {{ word }} kelimesi <a href = "{{ url }}">{{ url }}</a> adresinde
+        {{ number }} kez geçmektedir.
+    </p>
+    <input type="reset" onclick="location.href='/';" value="ANASAYFA" />
+  </div>
+</body>
+</html>
